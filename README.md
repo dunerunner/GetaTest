@@ -1,6 +1,21 @@
 # GetaTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
+This is the part 2 of the test task for Geta.
+
+I have used Angular Cli since it is a fast way of egnerating a project.
+
+The app displays top 50 music tracks in Latvia from Last.fm
+
+The data is received using Last.fm API.
+
+Notes:
+
+- Single module (since this is a test task)
+- rxjs Observable used for data update
+- Bootstrap styles applied
+- Model for Track is described in track.ts
+- No routing (since this is a test task)
+
 
 ## Development server
 
