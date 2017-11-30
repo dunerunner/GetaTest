@@ -1,0 +1,20 @@
+<section class="container">
+    <h1>Top 50 Last.fm tracks in Latvia</h1>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Track Name</th>
+            <th>Artist</th>
+            <th>Duration</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let track of tracks">
+                <td>{{track.name}}</td>
+                <td>{{track.artist.name}}</td>
+                <td>{{track.duration}}</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
