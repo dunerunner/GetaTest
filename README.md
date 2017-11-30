@@ -2,7 +2,7 @@
 
 This is the part 2 of the test task for Geta.
 
-I have used Angular Cli since it is a fast way of egnerating a project.
+I have used Angular Cli since it is a fast way of generating a project.
 
 The app displays top 50 music tracks in Latvia from Last.fm
 
